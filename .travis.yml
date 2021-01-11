@@ -10,7 +10,7 @@ env:
     # Misc
     - RUN_TESTS=true
     - COVERAGE=true
-    - CODECOV_TOKEN=ccd60852-20db-4f8d-84a0-dc9b04d55d13
+    - CODECOV_TOKEN=53175ef9-8240-452d-86cf-83590633d93c
 
 matrix:
   include:
