@@ -1,0 +1,14 @@
+codecov:
+  token: "699114b8-2535-49e4-8aa7-951b3442a4f3"
+  bot: "codecov-io"
+  ci:
+    - "travis.org"
+  strict_yaml_branch: "yaml-config"
+  max_report_age: 24
+  disable_default_path_fixes: no
+  require_ci_to_pass: yes
+  notify:
+    after_n_builds: 2
+    wait_for_ci: yes
+  ignore:
+    - "ext/**/*"  # ignore folders and all its contents
